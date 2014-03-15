@@ -1,0 +1,64 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body { 
+    padding-top:0px;
+}
+
+/* tell the SVG path to be a thin blue line without any area fill */
+path {
+	stroke: blue;
+	stroke-width: 1;
+	fill: none;
+}
+
+.social_development { 
+    width:1200px;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line {
+  stroke: gray;
+}
+
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.east_total {
+	stroke: steelblue;
+}
+ 
+.west_total {
+	stroke: orange;
+}
+
+#map_container { 
+    height:250px;
+}
+
+
+
+
+
+
+
+
+
+
+
